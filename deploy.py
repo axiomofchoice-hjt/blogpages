@@ -12,7 +12,7 @@ os.system("yarn build")
 os.chdir("../Axiomofchoice-hjt.github.io")
 
 for i in os.listdir("."):
-    if i == ".git" or i == "README.md":
+    if i == ".git" or i == "README.md" or i == "LICENSE":
         continue
     if os.path.isfile(i):
         os.remove(i)
