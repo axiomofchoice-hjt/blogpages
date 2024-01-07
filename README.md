@@ -1,5 +1,5 @@
 # blogpages
 
-博客源码
+用 Vuepress + Vdoing 搭建
 
-[博客链接](https://axiomofchoice-hjt.github.io/)
+[链接](https://axiomofchoice-hjt.github.io/)
