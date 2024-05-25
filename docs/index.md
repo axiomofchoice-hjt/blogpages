@@ -1,5 +1,5 @@
 ---
 home: true
 heroText: Axiomofchoice's Blog
-tagline: C++ / HPC / ACM
+tagline: C++ / HPC / AI / ICPC
 ---
