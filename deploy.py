@@ -1,11 +1,24 @@
 import os
 import sys
 import shutil
+import xml.etree.ElementTree as et
 
 os.environ["NODE_OPTIONS"] = "--openssl-legacy-provider"
 
 os.chdir(sys.path[0])
 os.system("yarn build")
+
+tree = et.parse("../blogpages/docs/.vuepress/dist/rss.xml")
+root = tree.getroot()
+for i in root[0]:
+    if i.find('guid') is not None and i.find('guid').text in [
+        'https://axiomofchoice-hjt.github.io/archives/',
+        'https://axiomofchoice-hjt.github.io/categories/',
+        'https://axiomofchoice-hjt.github.io/',
+    ]:
+        root[0].remove(i)
+tree.write("../blogpages/docs/.vuepress/dist/rss.xml", encoding='utf-8')
+
 os.chdir("../Puzzles")
 os.system("yarn build")
 
