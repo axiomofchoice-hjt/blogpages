@@ -97,18 +97,6 @@ module.exports = {
       { text: "首页", link: "/" },
       { text: '分类', link: '/categories/' },
       { text: '归档', link: '/archives/' },
-      {
-        text: 'ACM 板子',
-        link: '/pages/e6708e/',
-        items: [
-          { text: '数学', link: "https://github.com/axiomofchoice-hjt/ACM-axiomofchoice/blob/master/Math.md" },
-          { text: '图论', link: "https://github.com/axiomofchoice-hjt/ACM-axiomofchoice/blob/master/Graph.md" },
-          { text: '计算几何', link: "https://github.com/axiomofchoice-hjt/ACM-axiomofchoice/blob/master/Geometry.md" },
-          { text: '数据结构', link: "https://github.com/axiomofchoice-hjt/ACM-axiomofchoice/blob/master/Datastructure.md" },
-          { text: '其他', link: "https://github.com/axiomofchoice-hjt/ACM-axiomofchoice/blob/master/Others.md" },
-          { text: '结论', link: "https://github.com/axiomofchoice-hjt/ACM-axiomofchoice/blob/master/Conclusion.md" },
-        ],
-      },
       { text: "Blockchallenge", link: '/pages/62c303/' }
     ],
     updateBar: { showToArticle: false, moreArticle: '/archives/' }
