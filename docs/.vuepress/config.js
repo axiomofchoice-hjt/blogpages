@@ -97,7 +97,7 @@ module.exports = {
       { text: "首页", link: "/" },
       { text: '分类', link: '/categories/' },
       { text: '归档', link: '/archives/' },
-      { text: "puzzles", link: '/puzzles/' },
+      { text: "puzzles", link: 'https://axiomofchoice-hjt.pages.dev/puzzles/' },
       { text: "败犬日报", link: 'https://underdog-daily.pages.dev/' }
     ],
     updateBar: { showToArticle: false, moreArticle: '/archives/' }
