@@ -97,7 +97,8 @@ module.exports = {
       { text: "首页", link: "/" },
       { text: '分类', link: '/categories/' },
       { text: '归档', link: '/archives/' },
-      { text: "Blockchallenge", link: '/pages/62c303/' }
+      { text: "Blockchallenge", link: '/blockchallenge/' },
+      { text: "败犬日报", link: 'https://underdog-daily.pages.dev/' }
     ],
     updateBar: { showToArticle: false, moreArticle: '/archives/' }
   }
