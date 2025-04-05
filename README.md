@@ -1,3 +1,3 @@
-# blogpages
+# blog
 
-个人博客源码，Vuepress + Vdoing 搭建
+个人博客，Vuepress + Vdoing
