@@ -37,8 +37,8 @@ module.exports = {
     [
       'feed', {  // rss 订阅
         canonical_base: 'https://axiomofchoice-hjt.github.io',
-        count: 5000,
-        is_feed_page: (_) => true,
+        count: 100,
+        is_feed_page: page => 'date' in page.frontmatter,
       }
     ]
   ],
