@@ -79,7 +79,7 @@ module.exports = {
         {
           iconClass: 'icon-QQ',
           title: 'QQ',
-          link: 'tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1939696303'
+          link: 'https://qm.qq.com/q/o2qw5F5Gp4'
         },
         {
           iconClass: 'icon-github',
