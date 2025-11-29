@@ -1,5 +1,5 @@
 ---
 home: true
 heroText: Axiomofchoice's Blog
-tagline: C++ / HPC / AI
+tagline: 选择公理的个人博客 (C++ / HPC / AI)
 ---
