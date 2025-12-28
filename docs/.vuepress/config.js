@@ -65,7 +65,7 @@ module.exports = {
       // 博主信息，显示在首页侧边栏
       avatar: '/img/favicon.ico',
       name: 'Axiomofchoice',
-      slogan: 'C++ / HPC / AI',
+      slogan: 'C++ / HPC / Algorithm',
     },
     social: {
       // 社交图标，显示于博主信息栏和页脚栏
