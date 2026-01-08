@@ -1,7 +1,7 @@
 module.exports = {
   port: '8089',
   title: "Axiomofchoice's Blog",
-  description: "一个退役 ACMer 的个人博客",
+  description: "一个退役败犬的个人博客",
   theme: 'vdoing',
   base: "/", // 根路由
   head: [ // 注入到当前页面的 HTML <head> 中的标签
